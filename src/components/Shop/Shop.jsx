@@ -10,8 +10,10 @@ const Shop = () => {
     <main id="vlalue" className='hello'>
       <h1>Shop</h1>
       <InventoryList inventory={inventoryData} />
+      <data value=""></data>
     </main>
-  );
+  ); 
+
 };
 
 export default Shop;
